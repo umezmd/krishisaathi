@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #FAF7F0;
+  --foreground: #1C1C1A;
+  --primary: #2E7D32;
+  --primary-dark: #1B5E20;
+  --soil: #6D4C41;
+  --yellow: #F9A825;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Pulsing audio wave animation */
+@keyframes soundwave {
+  0%, 100% {
+    transform: scaleY(0.4);
+  }
+  50% {
+    transform: scaleY(1);
+  }
+}
+
+.animate-wave-1 {
+  animation: soundwave 0.8s ease-in-out infinite;
+}
+.animate-wave-2 {
+  animation: soundwave 0.8s ease-in-out 0.2s infinite;
+}
+.animate-wave-3 {
+  animation: soundwave 0.8s ease-in-out 0.4s infinite;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1ede4;
+}
+::-webkit-scrollbar-thumb {
+  background: #c5bcae;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #8D6E63;
+}

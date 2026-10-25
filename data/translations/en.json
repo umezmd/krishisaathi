@@ -1,0 +1,141 @@
+{
+  "appName": "KrishiSaathi",
+  "tagline": "Soil Report to Action Plan",
+  "subtitle": "Convert complex lab test numbers into a simple, money-saving action plan for your farm.",
+  "languageSelect": {
+    "title": "Choose Your Language",
+    "subtitle": "Select the language you want to speak and read in",
+    "continue": "Continue"
+  },
+  "nav": {
+    "home": "Home",
+    "dashboard": "Soil Health",
+    "plan": "Action Plan",
+    "savings": "Cost Savings",
+    "crops": "Crop Advice",
+    "history": "My Fields",
+    "demoMode": "60s Demo"
+  },
+  "home": {
+    "welcome": "Namaste, Farmer Friend!",
+    "helper": "Know exactly how much fertilizer your soil needs. Never overpay.",
+    "scanCard": "Scan Soil Card",
+    "scanDesc": "Take a photo or upload your Soil Health Card",
+    "manualCard": "Enter Numbers Manually",
+    "manualDesc": "Type pH, N-P-K and values from your lab paper",
+    "sampleCard": "Try a Sample Card",
+    "sampleDesc": "Instant demo with 3 realistic Indian soil cards",
+    "myFields": "View Past Fields",
+    "myFieldsDesc": "See your field history and soil health progress"
+  },
+  "samples": {
+    "title": "Select a Sample Soil Card",
+    "subtitle": "Test how KrishiSaathi helps different regions across India",
+    "sample1Title": "Sample 1: Punjab Wheat Field",
+    "sample1Desc": "Alluvial soil, high phosphorus from over-fertilizing. Saves ₹2,700 by skipping DAP!",
+    "sample2Title": "Sample 2: Odisha Rice Field",
+    "sample2Desc": "Acidic soil with severe zinc deficiency. Recommends Lime and Zinc Sulphate.",
+    "sample3Title": "Sample 3: Vidarbha Cotton Field",
+    "sample3Desc": "Black soil with salinity risk & high potash. Advises Gypsum & skipping MOP.",
+    "loadButton": "Load This Sample"
+  },
+  "confirm": {
+    "title": "Confirm Soil Test Values",
+    "subtitle": "Please verify numbers from your Soil Health Card. Tap any box to edit.",
+    "fieldName": "Field Name / Nickname",
+    "fieldNamePlaceholder": "e.g. River Side Field, Village Plot",
+    "testDate": "Sample Test Date",
+    "primaryNutrients": "Primary Soil Parameters",
+    "micronutrients": "Micronutrients (Optional - leave blank if not tested)",
+    "notTested": "Not tested",
+    "proceed": "Next: Crop & Field Details"
+  },
+  "context": {
+    "title": "Crop & Land Information",
+    "subtitle": "Tell us what you plan to grow so we can calculate exact bags needed.",
+    "landSize": "Your Land Size",
+    "acre": "Acre",
+    "hectare": "Hectare",
+    "selectCrop": "Select Crop",
+    "season": "Growing Season",
+    "kharif": "Kharif (Monsoon)",
+    "rabi": "Rabi (Winter)",
+    "zaid": "Zaid (Summer)",
+    "suggestCrops": "Or let AI suggest the best crops for your soil",
+    "calculateBtn": "Generate Action Plan & Savings"
+  },
+  "dashboard": {
+    "title": "Soil Health Card Summary",
+    "scoreLabel": "Soil Health Score",
+    "scoreDescription": "Out of 100 based on Indian ICAR Soil Health Card standards",
+    "parametersTitle": "Nutrient Status At A Glance",
+    "radarTitle": "Nutrient Balance Chart",
+    "status": {
+      "ideal": "Ideal / Safe",
+      "low": "Deficient / Low",
+      "high": "Excess / High",
+      "acidic": "Acidic",
+      "alkaline": "Alkaline"
+    }
+  },
+  "plan": {
+    "title": "Fertilizer & Action Plan",
+    "subtitle": "Scientific dose for your field. No guesswork, no wasted money.",
+    "timelineTitle": "Step-by-Step Schedule",
+    "basal": "Basal (At Sowing)",
+    "stageVeg": "First Top Dressing (Day 21)",
+    "stageFlow": "Second Top Dressing (Day 45)",
+    "bags": "bags (50 kg)",
+    "kg": "kg",
+    "doNotAddTitle": "DO NOT ADD (Save Your Money)",
+    "doNotAddDesc": "Your soil already has plenty of these nutrients. Adding more poisons soil and wastes your hard-earned cash.",
+    "amendmentsTitle": "Recommended Soil Amendments",
+    "weatherAlertTitle": "Live Weather Advisory",
+    "heavyRainNotice": "Heavy rain forecast! Postpone applying Urea to avoid fertilizer runoff.",
+    "dryNotice": "Hot and dry forecast! Provide light irrigation after applying fertilizer."
+  },
+  "savings": {
+    "title": "Your Money Savings",
+    "subtitle": "Compare standard blanket application vs KrishiSaathi scientific advice",
+    "heroSaved": "Total Field Savings",
+    "perAcre": "Savings Per Acre",
+    "typicalLabel": "Blanket Practice (2 Urea + 1 DAP / acre)",
+    "recommendedLabel": "Scientific Soil Plan",
+    "dapSavedLabel": "Saved by Skipping DAP",
+    "ureaSavedLabel": "Saved by Urea Balance",
+    "shareWhatsApp": "Share Plan on WhatsApp",
+    "downloadPdf": "Download PDF Report",
+    "messagePreview": "My Soil Health Plan from KrishiSaathi"
+  },
+  "crops": {
+    "title": "Best Crops For Your Soil",
+    "subtitle": "Ranked by pH match, salt tolerance, and soil nutrient status",
+    "suitability": "Suitability",
+    "reasons": "Why this crop fits:",
+    "risks": "Watch out for:"
+  },
+  "history": {
+    "title": "My Saved Fields",
+    "subtitle": "Track your soil fertility changes season over season",
+    "empty": "No saved fields yet. Scan or load a card to get started!",
+    "viewReport": "Open Report",
+    "delete": "Delete",
+    "trendTitle": "Soil Trends Over Time"
+  },
+  "voice": {
+    "listenPlan": "Listen to Plan",
+    "stop": "Stop Audio",
+    "speaking": "Reading your action plan in your language...",
+    "listenCard": "Listen"
+  },
+  "common": {
+    "offlineMode": "Offline Mode (Rules Engine)",
+    "onlineMode": "AI Connected",
+    "disclaimer": "Advice is indicative. Confirm with your local agriculture officer or KVK.",
+    "close": "Close",
+    "back": "Back",
+    "loading": "Analyzing soil report...",
+    "demoActive": "60-Second Demo Active",
+    "step": "Step"
+  }
+}
